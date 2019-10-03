@@ -8,7 +8,6 @@ import { PipesModule } from '../pipes/pipes.module';
 
 import { NavbarComponent } from './navbar/navbar.component';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
-import { HeaderComponent } from './header/header.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
@@ -32,12 +31,10 @@ import { MatListModule } from '@angular/material/list';
   declarations: [
     NavbarComponent,
     NopagefoundComponent,
-    HeaderComponent,
     NopagefoundComponent
   ],
   exports: [
     NopagefoundComponent,
-    HeaderComponent,
     NavbarComponent,
     NopagefoundComponent
   ]
