@@ -12,7 +12,7 @@ declare const gapi: any;
 export class LoginComponent implements OnInit {
 
   email: string;
-  recuerdame: boolean = false;
+  recuerdame = false;
 
   auth2: any;
 

@@ -5,24 +5,23 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LayoutModule } from '@angular/cdk/layout';
-import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
-//Modulos
+// Modulos
 import { SharedModule } from './shared/shared.module';
 import { MaterialModule } from '../material.module';
 
-// Rutas
-import { APP_ROUTES } from './app.routes';
 
 // Modulos
-import { PagesModule } from './pages/pages.module';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './login/register.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     SharedModule,
